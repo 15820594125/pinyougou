@@ -2,6 +2,7 @@ package com.pinyougou.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.pinyougou.pojo.TbGoods;
 import com.pinyougou.service.BaseService;
 import com.pinyougou.vo.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -85,4 +86,7 @@ public abstract class BaseServiceImpl<T> implements BaseService<T> {
             }
         }
     }
+
+
+
 }

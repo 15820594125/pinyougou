@@ -4,6 +4,7 @@ import com.alibaba.dubbo.config.annotation.Service;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.pinyougou.mapper.SellerMapper;
+import com.pinyougou.pojo.TbGoods;
 import com.pinyougou.pojo.TbSeller;
 import com.pinyougou.sellergoods.service.SellerService;
 import com.pinyougou.service.impl.BaseServiceImpl;
@@ -41,4 +42,6 @@ public class SellerServiceImpl extends BaseServiceImpl<TbSeller> implements Sell
 
         return new PageResult(pageInfo.getTotal(), pageInfo.getList());
     }
+
+
 }
